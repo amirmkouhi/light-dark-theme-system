@@ -1,0 +1,44 @@
+:root{
+    --body-color: #fff;
+    --text-color: #000;
+    --toggle-color:lightslategrey;
+}
+.dark{
+    --body-color: #000;
+    --text-color: #dd03ff;
+    --toggle-color:#7d03ff;
+}
+
+body{
+    background-color: var(--body-color);
+}
+
+.toggle-button{
+    width: 110px;
+    height: auto;
+    background-color: lightgray;
+    border-radius: 40px;
+    padding: 5px;
+}
+
+.circle{
+    width: 50px;
+    height: 50px;
+    background-color: var(--toggle-color);
+    border-radius: 50%;
+}
+
+.container i{
+    font-size: 50px;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 20px;
+    color: var(--text-color);
+}
+
+.container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
